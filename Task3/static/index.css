@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(30, 30, 30);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: max-content;
+    margin: 40px auto;
+}
+
+.input-message, .btn-send, .btn-geo{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-message{
+    background-color: #ddd;
+    width: 250px;
+    padding: 7px 8px;
+}
+
+.input-message:focus{
+    background-color: #ccc;
+}
+
+.input-message:focus::-webkit-input-placeholder{
+    opacity: 0;
+}
+
+.btn-geo, .btn-send{
+    padding: 7px 10px;
+    background-color: dimgray;
+    transition: .2s;
+    color: #eee;
+}
+
+.btn-geo:hover, .btn-send:hover{
+    background-color: #aaa;
+    color: #111;
+    cursor: pointer;
+}
+
+.btn-geo:active, .btn-send:active{
+    background-color: #ccc;
+}
+
+.output{
+    height: 300px;
+    overflow-y: auto;
+    background-color: #ccc;
+    border-radius: 5px;
+    padding: 20px 0;
+    margin-top: 10px;
+}
+
+.output::-webkit-scrollbar{
+    background-color: transparent;
+    width: 6px;
+}
+
+.output::-webkit-scrollbar-thumb{
+    background-color: rgb(129, 129, 129);
+    border-radius: 5px;
+}
+
+.output::-webkit-scrollbar-button{
+    opacity: 0;
+    height: 3px;
+}
+
+.message-box{
+    display: flex;
+    padding: 0 30px;
+}
+
+.message{
+    background-color: #eee;
+    border-radius: 5px;
+    border: 2px solid #111;
+    box-shadow: 2px 2px 3px #111;
+    font-size: 14px;
+    cursor: default;
+    padding: 6px 10px;
+    margin: 5px;
+}
+
+.link{
+    color: #111;
+}
+
+.link:hover{
+    color: #555;
+}
+
+.link:active{
+    color:rgb(132, 132, 132)
+}

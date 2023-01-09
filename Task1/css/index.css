@@ -1,0 +1,41 @@
+main{    
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 19px 10px 22px;
+    font-size: 15px;
+    letter-spacing: .7px;
+    border: none;
+    outline: none;
+    background-color: rgb(12, 54, 243);
+    color: white;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.btn:hover{
+    background-color: rgb(11, 46, 203);
+    box-shadow: 0 0 8px 0 rgb(109, 129, 214);
+}
+
+.btn:active{
+    background-color: rgb(8, 30, 132);
+    transform: scale(0.98);
+}
+
+.btn-span{
+    margin-right: 7px;
+}
+
+.btn-div{
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+}
